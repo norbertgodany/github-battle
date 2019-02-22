@@ -76,10 +76,36 @@ section.header {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
+	margin-bottom: 20px;
 }
 
 .languages li {
 	margin-right: 20px;
 	font-weight: bold;
 	cursor: pointer;
+}
+
+.popular-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.popular-item {
+	margin: 20px;
+	text-align: center;
+}
+
+.space-list-items {
+	margin-bottom: 7px;
+}
+
+.avatar {
+	width: 150px;
+	border-radius: 50%;
+	margin: 10px 0;
+}
+
+.popular-rank {
+	font-size: 20px;
 }
