@@ -52,6 +52,8 @@ section.header {
 .header .container {
 	display: flex;
 	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	height: 100%;
 }
@@ -62,12 +64,26 @@ section.header {
 
 .header .container .logo {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.header .container .logo a {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-decoration: none;
 }
 
 .header .container .logo img {
 	margin-right: 15px;
 	height: 36px;
 	width: 36px;
+}
+
+.header .container nav {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .header .container .nav-link {
