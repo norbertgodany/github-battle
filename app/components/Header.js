@@ -8,7 +8,7 @@ function Header () {
             <div className="container">
                 <div className="logo">
                 <NavLink exact to="/">
-                        <img src="../app/assets/icons/logo_github.svg"></img>
+                        <img src="../assets/icons/logo_github.svg"></img>
                         <h1>GitHub Ranking</h1>
                 </NavLink>
                 </div>
