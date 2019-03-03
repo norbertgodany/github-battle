@@ -5,6 +5,7 @@ const api = require('../utils/api');
 const Link = require('react-router-dom').Link;
 
 const PlayerPreview = require('./PlayerPreview')
+const Loading = require('./Loading')
 
 function Profile (props) {
   var info = props.info;
@@ -89,7 +90,7 @@ class Results extends React.Component {
     var loading = this.state.loading;
 
     if (loading === true) {
-      return <p>Loading</p>
+      return <Loading />
     }
 
     if (error) {
@@ -108,9 +109,9 @@ class Results extends React.Component {
           score={winner.score}
           profile={winner.profile}/>
         <Player
-        label="Loser"
-        score={loser.score}
-        profile={loser.profile}/>
+          label="Loser"
+          score={loser.score}
+          profile={loser.profile}/>
 
       </div>
 		)

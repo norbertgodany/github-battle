@@ -227,3 +227,7 @@ section.header {
   .reset:hover {
 	cursor: pointer;
   }
+
+  .header {
+    text-align: center;
+  }
