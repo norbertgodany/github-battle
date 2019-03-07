@@ -1,11 +1,11 @@
 const React = require('react');
 const PropTypes = require('prop-types');
 
-function PlayerPreview (props) {
+function PlayerPreview(props) {
   return (
     <div>
       <div className="column">
-        <img 
+        <img
           className="avatar"
           src={props.avatar}
           alt={"Avatar for " + props.username}
